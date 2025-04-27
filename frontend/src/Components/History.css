@@ -1,0 +1,136 @@
+/* General container styles */
+.history-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title styles */
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Submission section */
+  .submission-section {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Question text styling */
+  .question-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* List of options */
+  .options-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .options-list li {
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Correct option highlighting */
+  .options-list li.correct {
+    background-color: #d4edda;
+  }
+  
+  /* Button styles */
+  .testbtn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .testbtn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Error message */
+  .error {
+    color: red;
+    margin-top: 20px;
+  }
+  
+  .loading {
+    color: #3498db;
+    font-size: 18px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .userretry{
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgba(0, 0, 0, 0.1); /* Optional background overlay */
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ddd; /* Outer circle */
+    border-top: 5px solid #3498db; /* Animated part */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

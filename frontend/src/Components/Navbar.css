@@ -1,0 +1,56 @@
+/* nav{
+  border-bottom: 3px solid rgb(237, 252, 254);
+} */
+.navbar {
+    padding: 0.5rem 1rem; /* Increase padding for a bigger navbar */
+    font-size: 1.05rem; /* Larger font size */
+  }
+  
+  /* Right-align navbar items */
+  .navbar-nav {
+    margin-left: auto; /* Push items to the right */
+  }
+  
+  /* Increase font size and spacing of nav links */
+  .nav-link {
+    font-size: 1.05rem; /* Increase font size for navbar links */
+    padding: 0.5rem 1rem; /* Add padding for better spacing */
+  }
+  
+  /* Adjust brand font size */
+  .navbar-brand {
+    font-size: 1.5rem; /* Larger font for brand */
+  }
+ 
+
+
+
+
+  .button-container {
+    background: rgb(20, 60, 244);
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(20, 60, 244) 0px 10px 20px -10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 15px;
+    transition: background 0.3s, box-shadow 0.3s;
+    
+  }
+  
+  .button-container:hover {
+    background: rgb(15, 50, 200); /* Darker shade for hover */
+    box-shadow: rgb(15, 50, 200) 0px 10px 25px -10px; /* Slightly larger shadow */
+  }
+  
+  .button-container:active {
+    background: rgb(10, 40, 160); /* Even darker shade on click */
+    box-shadow: rgb(10, 40, 160) 0px 5px 15px -10px; /* Smaller shadow for pressed effect */
+  }
+  
+  .button-container:focus {
+    outline: 2px solid rgb(255, 255, 255);
+    outline-offset: 2px;
+  }
+  

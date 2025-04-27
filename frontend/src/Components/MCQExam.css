@@ -1,0 +1,196 @@
+.submitansbtn{
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* MCQExam.css */
+
+/* Container for the whole component */
+.mcqexam-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the subscription ID */
+  .mcqexam-subid {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #22c55e; /* Matches the user's preferred color scheme */
+  }
+  
+  /* Question container */
+  .mcqexam-question {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Question text styling */
+  .mcqexam-question h1 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  
+  /* Option container */
+  .mcqexam-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Radio input styling */
+  .mcqexam-option input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Option label styling */
+  .mcqexam-option label {
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* GenerateReport.css */
+
+/* Container for the report */
+.genreport-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Question block container */
+  .genreport-question {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Question text */
+  .genreport-question h1 {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  
+  /* Options container */
+  .genreport-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Radio input styling */
+  .genreport-option input[type="radio"] {
+    margin-right: 10px;
+    cursor: not-allowed; /* Indicate the inputs are disabled */
+  }
+  
+  /* Option label styling */
+  .genreport-option label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Feedback text for answers */
+  .genreport-feedback {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #22c55e; /* Green for correct answers */
+  }
+  
+  .genreport-feedback.incorrect {
+    color: #ef4444; /* Red for incorrect answers */
+  }
+  
+  .genreport-feedback.skipped {
+    color: #f59e0b; /* Amber for skipped questions */
+  }
+  
+  /* Summary section */
+  .genreport-summary {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 2px solid #ddd;
+    background-color: #f1f1f1;
+  }
+  
+  .genreport-summary p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  .genreport-status {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .genreport-status.pass {
+    background-color: #22c55e;
+  }
+  
+  .genreport-status.fail {
+    background-color: #ef4444;
+  }
+  

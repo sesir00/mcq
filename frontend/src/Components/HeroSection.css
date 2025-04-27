@@ -1,0 +1,27 @@
+.Heading{
+  text-align: center;
+  padding-top: 10%;
+  font-weight: 1000;
+  font-size: 350%;
+  font-family: "Roboto", sans-serif;
+}
+.highlight {
+  color: rgb(20, 60, 244);  /* Change to any color you want */
+}
+.subheading{
+  text-align: center;
+  font-size: larger;
+  font-weight: 500;
+}
+.hero{
+  background: rgb(237, 252, 254);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  .hero {
+    border-top: 3px solid rgba(20, 60, 244, 0.5); /* Adjust color and opacity */
+  }
+  
+}
+.herobtn{
+  padding: 30px 0px 100px 45%;
+}
